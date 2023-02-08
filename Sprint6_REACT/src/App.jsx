@@ -1,5 +1,7 @@
-import Welcome from "./components/escena"
+import React from "react"
+import Welcome from "./components/escena.jsx"
 
-export function App() {
-  return <Welcome/>
+function App() {
+  return <Welcome />
 }
+export default App
