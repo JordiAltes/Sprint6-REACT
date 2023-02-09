@@ -1,4 +1,4 @@
-export const frases = [
+const frases = [
     {
       id: 1,
       text: "El nostre heroi estava surant per l'espai sideral quan a la llunyania va albirar una nau espacial",
@@ -17,3 +17,4 @@ export const frases = [
       text: "Mentrestant, altres herois no van tenir tanta sort en la seva elecció ...",
     },
   ];
+  export default frases
