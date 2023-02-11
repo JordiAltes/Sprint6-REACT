@@ -1,8 +1,9 @@
 import React from "react";
+import "../index.css"
 
 export default function Escena(props) {
     return (
-        <div>
+        <div className="frase">
             {props.frase}
         </div>
     )
