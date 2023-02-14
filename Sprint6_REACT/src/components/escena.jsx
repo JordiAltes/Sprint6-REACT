@@ -1,9 +1,12 @@
 import React from "react";
+import clsx from "clsx"
 
-export default function Escena(props) {
+const Escena = ({ frase, isPainted }) => {
     return (
-        <div className="frase">
-            {props.frase}
+        <div className={clsx('frase', isPainted && 'frase-pintada')}>
+            {frase}
         </div>
     )
 }
+
+export default Escena
