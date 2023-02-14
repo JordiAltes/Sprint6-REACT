@@ -1,31 +1,34 @@
 .frase {
-    padding: 20px;
-    border-radius: 10px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    margin: 20px;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    border: 1px solid black;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  border: 1px solid black;
 }
 .frase-pintada {
-    background-color: red;
+  background-color: red;
+}
+.buttons {
+    display: flex;
+    
 }
 .button {
-    display: flex;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    margin-left: 90px;
-    font-family: 'Open Sans', sans-serif;
-    border: 5px solid red;
-    width: 40%;
-    display: inline-block;
-    font-size: large;   
+  flex-grow: 1;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: "Open Sans", sans-serif;
+  border: 5px solid red;
+/*   width: 49.8%;
+ */  display: inline-block;
+  font-size: large;
+  margin: 1px;
 }
 .button:active {
-    box-shadow: 0 2px #666;
-    transform: translateY(4px);
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
 }
-
