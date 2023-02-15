@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import Escena from "./components/Escena.jsx";
 import frases from "./components/frases";
+import { Welcome } from "./components/Welcome.jsx";
 
 function App() {
   const [position, setPosition] = useState(1);
@@ -12,7 +13,14 @@ function App() {
     setPosition(position <= 1 ? frases.length : position - 1);
   }
 
-  return (
+  const [welcomePage, setPage] = useState(true);
+  const nextPage = () => {
+    setPage(false);
+  };
+
+  return welcomePage === true ? (
+    <Welcome següent={nextPage} />
+  ) : (
     <div>
       <div className="buttons">
         <button className="button" onClick={() => ActiveBack()}>
