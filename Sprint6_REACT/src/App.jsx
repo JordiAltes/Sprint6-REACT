@@ -36,6 +36,7 @@ function App() {
           key={item.id}
           frase={item.text}
           isPainted={position === item.id}
+          image={item.img}
         />
       ))}
     </div>
