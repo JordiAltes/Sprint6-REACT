@@ -22,6 +22,10 @@ export const Button = styled.p`
   margin: 1px;
   text-align: center;
 
+  &:hover {
+    background-color: #bad7e9;
+  }
+
   &:active {
     box-shadow: 0 2px #666;
     transform: translateY(4px);
