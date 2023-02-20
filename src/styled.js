@@ -6,8 +6,8 @@ export const Container = styled.div`
   height: 100vh;
   background-size: cover;
   background-position: center;
-  background-image: url(${(props) => props.background});
-  `;
+  background-image: url("${(props) => props.background}");
+`;
 
 export const Button = styled.p`
   flex-grow: 1;
