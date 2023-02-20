@@ -1,6 +1,4 @@
-
 body {
-  height: 100%;
   margin: 0px;
 }
 
@@ -60,7 +58,7 @@ body {
   height: 10%;
   border-radius: 50%;
   padding: 1rem;
-  background-color: #B3005E;
+  background-color: #b3005e;
   color: #fff;
   text-align: center;
   text-decoration: none;
@@ -71,6 +69,6 @@ body {
   box-shadow: 0 2px #666;
   transform: translateY(4px);
 }
-.botoBenviguda:hover{
-  background-color:lightskyblue;
+.botoBenviguda:hover {
+  background-color: lightskyblue;
 }
